@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+      <link rel="stylesheet" href="styles.css">
+      <title>Landing Page</title>
+  </head>
+  <video autoplay muted loop id="video">
+    <source src="video.mp4" type="video/mp4" alt="Background video displaying code provided by Pressmaster from Pexels: https://www.pexels.com/video/running-a-light-of-digital-information-3129977/">
+  </video>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <a href="https://www.freepik.com/vectors/hacker-logo">
+            <img  
+              id="header-img" 
+              src="https://img.freepik.com/free-vector/creative-hacker-logo-template_23-2149202838.jpg?w=1380&t=st=1658073059~exp=1658073659~hmac=0cfc05bf21a1713480c36ac853130684b27c9172aecf9b6b329e2483f6b229cd" 
+              alt="Hacker logo vector created by freepik - www.freepik.com"
+            >
+          </a>
+        </div>
+        <nav id="nav-bar">
+          <ul class="nav">
+            <div class="icon phone"><i class="fa fa-phone-alt"></i></div>
+            <li><a class="nav-link" href="#service">Service</a></li>
+  
+            <div class="icon mail"><i class="fa-solid fa-money-check"></i></div>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      
+            <div class="icon plus"><i class="fa-solid fa-right-to-bracket"></i></div>
+            <li><a class="nav-link" href="#sign_up">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="sign_up">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+              <h2 style="color: orange;">Let's get started!</h2>
+                <input 
+                    name="user"
+                    id="name"
+                    type="name"
+                    placeholder="Username"
+                    required
+                />
+                <input 
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                />
+                <input
+                    name="password"
+                    id="password"
+                    type="password"
+                    placeholder="Password"
+                    pattern="[a-z0-5]{8,}"
+                    required
+                />
+                <input id="submit" type="submit" value="Sign up" class="btn" />
+            </fieldset>
+        </form>
+      </div>
+    <div id="service">
+        <hr>
+        <div id="title"> Complexity made simple!</div>
+
+        <div class="container">
+          <div id="box-1">
+            <div class="icon-box">
+              <i class="fa fa-network-wired"></i>
+            </div><h1>Network</h1>
+            </hr> 
+            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks necessary, making this first true generator on Internet.
+          </div>
+
+          <div id="box-2">
+            <div class="icon-box">
+              <i class="fa fa-user-friends"></i>
+            </div><h1>EndUser</h1>
+            </hr>
+            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks necessary, making this first true generator on Internet.
+          </div>
+
+          <div id="box-3">
+            <div class="icon-box"><i class="fa fa-server"></i>
+            </div><h1>Server</h1>
+            </hr>
+            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks necessary, making this first true generator on Internet.
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div id="pricing">
+        <hr>
+          <div class="icon-pricing"><i class="fa fa-car-side"></i></div>
+            <h1>Basic Plan</h1>
+        <p>$600</p>
+        <ol>
+          <h4>Lorem ipsum dolor amet, </br> consectetur adipiscing elit.</h4>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            100 MB Disk Space
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            100 MB Bandwidth
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            Email Support
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            Lorem ipsum.
+          </li>
+        </ol>
+        <input id="select" type="submit" value="Select" class="btn">
+        <hr>
+     </div>
+     <div id="pricing">
+        <hr>
+          <div class="icon-pricing"><i class="fa fa-plane"></i></div>
+        <h1>Premium Plan</h1>
+        <p>$900</p>
+        <ol>
+          <h4>Lorem ipsum dolor amet, </br> consectetur adipiscing elit.</h4>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            1GB Disk Space
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            1GB Bandwidth
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            10 Sub Domain
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            Email Support
+          </li>
+        </ol>
+        <input id="select" type="submit" value="Select" class="btn">
+        <hr>
+      </div>
+      <div id="pricing">
+        <hr>
+          <div class="icon-pricing"><i class="fa fa-space-shuttle"></i></div>
+        <h1>Ultimate Plan</h1>
+        <p>$1200</p>
+        <ol>
+          <h4>Lorem ipsum dolor amet, </br> consectetur adipiscing elit.</h4>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            5GB Disk Space
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            5GB Bandwidth
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            20 Sub Domain
+          </li>
+          <li>
+            <div class="icon-check"></div>
+            <i class="fa fa-check"></i>
+            Email Support
+          </li>
+        </ol>
+        <input id="select" type="submit" value="Select" class="btn">
+        <hr>
+      </div>
+    </div>
+      <footer id="footer">
+        <hr>
+        <ul>
+          <li><a href="#">(888)255-6597</a></li>
+          <li><a href="#">avatar@gmail.com</a></li>
+          <li><a href="#">Sign up</a></li>
+        </ul>
+        <span>Copyright 2020, Cybersecurity Avatar</span>
+      </footer>
+  </body>
+</html>
+
+    
